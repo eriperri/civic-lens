@@ -10,6 +10,7 @@
 <!-- ADD Open Graph Meta for title, description, image, url, type -->
   <meta property="og:title" content="Civic Lens">
   <meta property="og:description" content="Civic Lens is an independent news organization committed to unbiased reporting, investigative journalism, and truth-driven storytelling.">
+  <meta property="og:image" content="">
   <meta property="og:url" content="https://eriperri.github.io/civic-lens/">
   <meta property="og:type" content="website">
 
@@ -38,7 +39,7 @@
         <label for="menu-toggle" class="menu-button">Menu</label>
         <ul class="menu">
           <li><a href="#breaking-news">Breaking News</a></li>
-          <li><a href="#featured-aticles">Featured Articles</a></li>
+          <li><a href="#featured-articles">Featured Articles</a></li>
           <li><a href="#alerts">Alerts</a></li>
           <li><a href="#social">Social</a></li>
         </ul>
@@ -50,62 +51,76 @@
         <p>We are an independent news organization dedicated to unbiased reporting, investigative journalism, and truth-driven storytelling. At Civic Lens, our mission is to expose the facts, amplify marginalized voices, and shine light on the systems that shape our society.</p>
         <blockquote class="tagline">“We don't follow the narrative. We follow the facts.”</blockquote>
 
-      <h2>Breaking News</h2>
+      <h2 id="breaking-news">Breaking News</h2>
 
+      <section class="video-section">
         <h3>Federal Investigation Launched into Water Mismanagement in the Southwest</h3>
         <p>The Department of Justice has announced a full investigation into decades of water distribution practices affecting tribal lands and rural communities.</p>
         <video controls> 
           <source src="videos/water-management.mp4" type="video/mp4">
           Your browser cannot play the provided video file.
         </video>
-        
+      </section>
+      <section class="video-section">
         <h3>Voter Suppression Bill Faces Pushback in State Supreme Court</h3>
         <p>Civil rights advocates argue that the bill disenfranchises thousands of voters and potential voters of color and those in rural areas of the country.</p>
         <video controls>
         <source src="videos/voter-suppression.mp4" type="video/mp4">
         Your browser cannot play the provided video file.
         </video>
-
-      <h2>Featured Articles</h2>
+      </section>
+      <h2 id="featured-articles">Featured Articles</h2>
         
+      <section class="articles">
         <h3>The Cost of Silence: Whistleblower Stories from Inside Tech Giants</h3>
         <p>Former employees speak out about ethical breaches in data privacy and surveillance.</p>
-        
+      </section>
+      <section class="articles">
         <h3>Unequal Justice: How Bail Systems Harm the Poor</h3>
         <p>An investigative series on cash bail and its disproportionate impact.</p>
-        
+      </section>
+      <section class="articles">
         <h3>Invisible Work: The Lives of Migrant Caregivers</h3>
         <p>Humanizing the labor that keeps households and economies afloat.</p>
-        
+      </section>
+      <section class="articles">
         <h3>Redlined Still: A New Map of Modern-Day Housing Discrimination</h3>
         <p>Data visualization showing systemic inequality in real estate today.</p>
-        
+      </section>
+      <section class="articles">
         <h3>Climate Injustice: Who Pays for Pollution?</h3>
         <p>Communities of color bear the brunt of environmental damage.</p>
-        
+      </section>
+      <section class="articles">
         <h3>Teaching Under Fire: The Fight for Inclusive Education</h3>
         <p>Teachers navigate book bans, curriculum restrictions, and culture wars.</p>
-        
+      </section>
+      <section class="articles">
         <h3>Food Deserts and Corporate Abandonment</h3>
         <p>Why access to nutrition is a zip code lottery.</p>
-        
+      </section>
+      <section class="articles">
         <h3>Policing Mental Health: A Broken Response System</h3>
         <p>Examining police interactions with those in crisis.</p>
-        
+      </section>
+      <section class="articles">
         <h3>The Disinformation Economy</h3>
         <p>Tracing profit motives behind fake news empires.</p>
-        
+      </section>
+      <section class="articles">
         <h3>Facing the Algorithm: AI and Racial Bias</h3>
         <p>The coded inequalities that shape our lives.</p>
-        
+      </section>
+      <section class="articles">
         <h3>The Voting Maze</h3>
         <p>A guide to understanding your rights amid changing laws.</p>
-        
+      </section>
+      <section class="articles">
         <h3>After the Cameras Leave: Long-Term Crisis Recovery</h3>
         <p>Rebuilding trust and infrastructure in disaster-hit communities.</p>
+      </section>
         
-        
-      <h2>Stay Informed. Stay Empowered.</h2>
+      <h2 id="alerts">Stay Informed. Stay Empowered.</h2>
         <p>Receive text messages with the news you want to know.</p>
         
       <form method="post" action="https://wp.zybooks.com/form-viewer.php">
@@ -120,22 +135,22 @@
         <legend>Notification Preferences</legend>
         
         <input id="news" type="checkbox" name="notifications" value="news">
-        <label for="news">Breaking News</label>
+        <label for="news">Breaking News</label><br>
         
         <input id="politics" type="checkbox" name="notifications" value="politics">
-        <label for="politics">Politics</label>
+        <label for="politics">Politics</label><br>
         
         <input id="weather" type="checkbox" name="notifications" value="weather">
-        <label for="weather">Weather</label>
+        <label for="weather">Weather</label><br>
 
         <input id="sports" type="checkbox" name="notifications" value="sports">
-        <label for="sports">Sports</label>
+        <label for="sports">Sports</label><br>
 
         <input id="entertainment" type="checkbox" name="notifications" value="entertainment">
-        <label for="entertainment">Entertainment</label>
+        <label for="entertainment">Entertainment</label><br>
 
         <input id="world" type="checkbox" name="notifications" value="world">
-        <label for="world">World</label>
+        <label for="world">World</label><br>
 
         <input id="financial" type="checkbox" name="notifications" value="financial">
         <label for="financial">Financial</label>
@@ -146,7 +161,7 @@
     </main>
 
     <footer>
-      <h2>Follow Us</h2>
+      <h2 id="social">Follow Us</h2>
       <ul>
         <li><a href="#">Twitter/X</a></li>
         <li><a href="#">Instagram</a></li>
