@@ -94,6 +94,10 @@ body.dark-mode {
   position: static;
   width: auto;
   height: auto;
+  text-decoration: none;
+  color: var(--watchdog-white);
+  background: var(--news-flash);
+  padding: 1rem;
 }
 
 /* ///ADD/// Navigation Styles */
